@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/backgroutophom"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_weight="0.5"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_tron"
+            />
+        <LinearLayout
+            android:layout_weight="4"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/name"
+                android:textSize="30sp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ten bai hat" />
+            <TextView
+                android:id="@+id/namesinger"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ten ca si"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_weight="0.5"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_dep"
+            />
+
+
+
+</LinearLayout>
